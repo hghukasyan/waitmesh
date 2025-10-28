@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Engine build artifacts
+waitmesh/bin/
+waitmesh/*.db
+waitmesh/*.db-wal
+waitmesh/*.db-shm
+waitmesh/*.out
+waitmesh/*.test
+waitmesh/*.prof
+waitmesh/coverage.out
+waitmesh/dist/
+waitmesh/bin/
+/waitmesh/waitmesh
+
+# Website
+website/node_modules/
+website/.next/
+website/out/
+website/.env*.local
+website/*.log
+
+# Agent noise
+website/AGENTS.md
+website/CLAUDE.md
