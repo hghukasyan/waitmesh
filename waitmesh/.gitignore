@@ -1,0 +1,11 @@
+bin/
+*.db
+*.db-wal
+*.db-shm
+*.out
+*.test
+coverage.out
+.DS_Store
+dist/
+/waitmesh
+*.prof
