@@ -1,0 +1,33 @@
+export const site = {
+  name: "Waitmesh",
+  tagline: "Know when something didn't happen.",
+  secondaryTagline: "Event conditions that fire on absence, sequence, and count.",
+  description:
+    "Open-source engine for absence, sequence, and count conditions. Durable timers, crash-safe SQLite, REST + CLI.",
+  seoTitle: "Waitmesh — event conditions for what didn't happen",
+  seoDescription:
+    "Open-source event-condition engine: fire when something happens — or when it doesn't. Absence, sequence, and count rules with durable timers and crash-safe SQLite. REST, CLI, Apache 2.0.",
+  url: "https://waitmesh.com",
+  domain: "waitmesh.com",
+  github: "https://github.com/waitmesh/waitmesh",
+  docs: "https://github.com/waitmesh/waitmesh/tree/main/waitmesh/docs",
+  twitter: "@waitmesh",
+  version: "0.1.0",
+  keywords: [
+    "Waitmesh",
+    "event conditions",
+    "absence detection",
+    "missing event alert",
+    "sequence workflow",
+    "count threshold",
+    "durable timers",
+    "crash-safe SQLite",
+    "event-driven timeout",
+    "outbox pattern",
+    "payment timeout",
+    "heartbeat monitor",
+    "Go event engine",
+    "open source",
+    "Apache 2.0",
+  ],
+} as const;
