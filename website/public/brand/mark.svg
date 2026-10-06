@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="Waitmesh">
+  <rect width="64" height="64" fill="#0a0a0a"/>
+  <!-- 3x3 mesh; center-right link missing (absence) -->
+  <g stroke="#ffffff" stroke-width="2" stroke-linecap="square">
+    <!-- nodes as small squares -->
+    <rect x="12" y="12" width="6" height="6" fill="#ffffff" stroke="none"/>
+    <rect x="29" y="12" width="6" height="6" fill="#ffffff" stroke="none"/>
+    <rect x="46" y="12" width="6" height="6" fill="#ffffff" stroke="none"/>
+    <rect x="12" y="29" width="6" height="6" fill="#ffffff" stroke="none"/>
+    <rect x="29" y="29" width="6" height="6" fill="#ffffff" stroke="none"/>
+    <!-- missing node replaced by blue hollow -->
+    <rect x="12" y="46" width="6" height="6" fill="#ffffff" stroke="none"/>
+    <rect x="29" y="46" width="6" height="6" fill="#ffffff" stroke="none"/>
+    <rect x="46" y="46" width="6" height="6" fill="#ffffff" stroke="none"/>
+    <!-- edges -->
+    <path d="M18 15 H29 M35 15 H46"/>
+    <path d="M15 18 V29 M15 35 V46"/>
+    <path d="M32 18 V29 M32 35 V46"/>
+    <path d="M49 18 V29"/>
+    <path d="M18 32 H29"/>
+    <path d="M18 49 H29 M35 49 H46"/>
+    <path d="M49 35 V46"/>
+    <!-- broken edge toward missing node (center-right) -->
+    <path d="M35 32 H40" stroke="#ffffff"/>
+  </g>
+  <circle cx="49" cy="32" r="5" fill="none" stroke="#0055ff" stroke-width="2.5"/>
+  <circle cx="49" cy="32" r="1.5" fill="#0055ff"/>
+</svg>
