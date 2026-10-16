@@ -26,3 +26,7 @@ cd website
 npm install
 npm run dev
 ```
+
+## Status
+
+v0.1 landing page surfaces durable bench metrics (p50/p99, evt/s).
