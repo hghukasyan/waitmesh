@@ -32,3 +32,5 @@ npm run dev
 v0.1 landing page surfaces durable bench metrics (p50/p99, evt/s).
 
 Production site: https://waitmesh.com
+
+Public repository: https://github.com/hghukasyan/waitmesh
